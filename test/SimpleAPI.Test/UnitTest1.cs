@@ -12,7 +12,7 @@ namespace SimpleAPI.Test
         public void Get5ReturnsTextAnd5()
         {
             var returnValue = controller.Get(5);
-            Assert.Equal("returning number... 5", returnValue);
+            Assert.Equal("The tempurature is 5°C", returnValue);
         }
 
         [Fact]
