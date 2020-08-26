@@ -38,8 +38,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            "The tempurature is 5°C"
-            var text = "The tempurature is " + id + "°C";
+            var text = "The temperature is " + id + "°C";
             return text;
         }
     }
